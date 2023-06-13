@@ -70,4 +70,53 @@ header h1{
 .stars p{
     margin-bottom: 1rem;
 }
+.persons{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0;
+}
+.person{
+    max-width: 25rem;
+    background: var(--VeryDarkMagenta);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+}
+.person .row1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 3rem;
+}
+.person img{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.person >p{
+   color: var(--White);
+   margin-left: 2rem;
+   margin-right: 2rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+.person .row1-2 .r1{
+    color: var(--White);
+}
+.person .row1-2 .r2{
+    color: var(--SoftPink);
+}
+footer{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+footer a{
+    align-items: center;
+    transform: translateY(40px);
+}
 
